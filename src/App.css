@@ -1,0 +1,103 @@
+*
+{
+  background-color: #aad967;
+  justify-content: center;
+  justify-content: center;
+  
+  margin: 0;
+}
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  align-items: center;
+}
+
+h2 {
+  text-align: center;
+  color: #2f5918;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  align-items: center;
+}
+
+label {
+  margin-bottom: 5px;
+  color:black;
+  font-weight: bold;
+  border: none;
+  box-shadow: none;
+}
+
+input {
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #100101;
+  border-radius: 5px;
+  font-size: 16px;
+  box-shadow: none;
+
+}
+
+.btn {
+  padding: 10px 20px;
+  margin-right: 5px;
+  background-color: #00c82b49;
+  color: #000000;
+  border:1px solid black;
+  border-radius: 3px;
+  cursor: pointer;
+  outline: none;
+}
+
+.btn:hover {
+  background-color: #6ed408;
+}
+
+.btn-outline {
+  background-color: #00c82b49;
+  border: 1px solid black;
+  color:black;
+}
+
+.btn-outline:hover {
+  background-color: #6ed408;;
+  color: black;
+}
+
+
+.center {
+  text-align: center;
+  margin-top: 20px;
+}
+
+h3 {
+  color :#000000;
+}
+
+p{
+  margin-top: 10px;
+  color: rgb(36, 70, 9);
+  font-weight: bold;
+}
+input::placeholder {
+  color: #3426b5; /* You can adjust this color as needed */
+  opacity: 1; /* Ensure the color is applied */
+  box-shadow: none;
+}
+
+
